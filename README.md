@@ -3,7 +3,7 @@
 ## Project Overview
 ### Purpose
 
-For this project we are creating data visualization with Tableau for bike sharing program in New York City. The idea is to analyze the data, observe the mechanics of the business and figure out how the bike share business actually works in NYC. This is the first step of expanding the idea to other cities. With te help of strong and clear story and good example of data we can create a proposal on how the business could work in other cities as well.
+For this project we are creating data visualization with Tableau for bike sharing program in New York City. The idea is to analyze the data, observe the mechanics of the business and figure out how the bike share business works in NYC. This is the first step of expanding the idea to other cities. With the help of strong and clear story and good example of data we can create a proposal on how the business could work in other cities as well.
 
 **The Tableau story of the NYC CitiBike can be found in the following link:** [NYC CitiBike Story](https://public.tableau.com/)
 
@@ -13,15 +13,15 @@ For this project we are creating data visualization with Tableau for bike sharin
 - Tableau is a data visualization tool which provides pictorial and graphical representations of data. 
 - It allows to create stories that are visually appealing and understandable to any non-technical user.
 - It provides the tool which creates powerful analytic dashboards and tells clear story which can be easily shared to others.
-- It is simple, required little coding or write queries as 'Calculated Field' , to ensure your data is showing correct analytics as per the requirements. 
+- It is simple, required little coding or write queries as 'Calculated Field’, to ensure your data is showing correct analytics as per the requirements. 
 
 ## Requirements
 
-- Change  Trip Duration to a Datetime Format
+-  Change Trip Duration to a Datetime Format
   - Pandas to convert integer to a datetime datatype.
   
--	Create Visualizations for the Trip Analysis
-    - Tableau to create visualizations, dashboard and story.
+-  Create Visualizations for the Trip Analysis
+    - Tableau to create visualizations, dashboard, and story.
 
 
 ## Resources 
@@ -39,7 +39,7 @@ For this project we are creating data visualization with Tableau for bike sharin
 
 ### Basic Information
 
-This is the first page of the story which is dashboard and it contains basic information about the data set.
+This is the first page of the story which is dashboard, and it contains basic information about the data set.
 It gives details of the dataset to understand what kind of data we will be dealing with in the further analysis. 
   
 <p align="center">
@@ -47,10 +47,10 @@ It gives details of the dataset to understand what kind of data we will be deali
 </p>
 
 The page contains the following information:
--	Type of business(CitiBike), location with perticular time frame of the data (New York City, August 2019).
+-	Type of business (CitiBike), location with particular time frame of the data (New York City, August 2019).
 -	Number of the total rides: 2,344,224.
 -	Customer type: subscribers and customers.
--	Peak hours, divided by gender which shows the user behaviour.
+-	Peak hours, divided by gender which shows the user behavior.
 #
 ### 1. Checkout Times for Users
 
@@ -127,33 +127,48 @@ The page contains the following information:
 ### 6. Top Starting Locations & Top Ending Locations
 
 <p align="center">
-<img src="Graphics/TopStatrtingLocations.PNG" width="25%" height="25%">    <img src="Graphics/TopEndingLocations.PNG" width="27.3%" height="27.3%">
+<img src="Images/Top_Statrting_Locations.png" width="25%" height="25%">    <img src="Images/Top_Ending_Locations.png" width="27.3%" height="27.3%">
 </p>
 
-From those two graphs we can see the most popular starting and ending locations. Orange color represent subscribers, while blue represent customers. Larger bubbles represent locations with the highest number of trips, and smaller bubbles represent lowest number of trips. From the graph we can see which stations are more popular amongst subscribers vs. customers and what areas are more popular than others. Downtown area is much more popular than surrounding areas, yet it is as important for surrounding areas to have bike services, in order to ensure good customer experience.
+- With the help of these two graphs we can see the most popular starting and ending locations.
+- The color indicates the types of users
+  - Orange color represent subscribers,
+  - Blue represent customers.
+-  The bubble shapes represent the number of trips. 
+  - Larger bubbles represent locations with the highest number of trips, 
+  - Smaller bubbles represent lowest number of trips.
+-  Also, we can find out popularity of stations amongst subscribers vs. customers and what areas are more popular than others.
+-  Downtown area is much more popular than other areas, yet it is as important for surrounding areas to have bike services for good customer experience.
 
 
 ## Summary
 
-The story of the NYC CitiBike starts off with the basic information about the users and the trips. From the first page we can learn a lot about users for bike share company and helps us understand data in further analysis. This data analysis contains data from **August 2019**, a busy time for **bike share** business in **NYC**. We have two user types **subscribers** and **customers**, three genders - **male**, **female** and **unknown** and two important aspects of the business - **time** and **bike maintenance**. 
+In the NYC CitiBike story, it tells us more about number of users and how they use the bikes per hour, by weekday per hour, who is most popular user type, popular areas,
+peak hours by gender. 
 
-**Bike maintenance**
+There are some points we should investigate:
 
-Bike maintenance plays a big role in bike share business. Heat maps are great visualization for large amount of data and give us clear story about the data. From the graphs *Peak Hours per Gender*, *Trips by Weekday per Hour* and *Trips by Gender (Weekday per Hour)* we can see that the least busy time is between 11pm and 5am. That suggests a good time for bike maintenance. Additionally, graph *Bike Utilization* shows that we could group bike utilization roughly into 4 groups. Some bikes are used far more often than the other. In this case we can make a stagger plan for maintenance and rotation of the bikes from popular station to less popular stations as we can in the graph *Top Starting Stations* and  *Top Ending Stations*. 
+**1.Bike maintenance**
 
-**Customers and Subscribers**
+- Bike maintenance plays a big role in bike share business.
+- Heat maps tell us clear story about the data which will helps us to visualize the scenario. 
+- From the graphs *Peak Hours per Gender*, *Trips by Weekday per Hour* and *Trips by Gender(Weekday per Hour)* we can see that the least busy time is between 11pm and 5am. That suggests a good time for bike maintenance.
+- With the help of this we can make a plan for maintenance and rotation of the bikes from popular station to less popular stations as we can see in the graph *Top Starting Stations* and *Top Ending Stations*. 
 
-Customers are the most important part in the business. Our business is doing well because of them. In bike share business we have two types of users with a slightly different habit of using the service. It is important to be aware of those differences to ensure a good customer experience. In popular times for tourism we can expect that more customers (non-subscribers) will use the service. In order to be prepared for this surge, business should plan ahead for bike and station maintenance, rotation of the bikes and keep popular stations stocked.
+**2.Trip-duration**
 
-**Gender**
+- The most popular trip duration checkout time is between 3-8 hours. From this we can learn more about users behavior.
+- There should be some flexibility on usage of bikes per mile. 
 
-From most graphs we can see that usage of the bikes is disproportional amongst genders. With careful and mindful marketing approach, we could target underrepresented groups and increase business. 
+#
+ 
+The NYC CitiBike story says lot about users and trips which will definitely helpful for us to create Citi bike program in De Moines. 
 
-**Trip-duration**
+We should concentrate on some areas to make Citibike more popular and efficient for users.  
 
-The most popular trip duration checkout time is between 3-8 hours. From this we can learn more about users' behavior. One way to see this side of the story is that users checkout bike for a single trip and return bike to the station (3 hour) or may rent the bike and keep it until their return trip (8+ hours). We could address a few things here. From revenue perspective, it is good that customer is willing to pay for the whole time, yet the utilization of bikes may not be the most efficient. Business could set up more stations for users to return the bikes to the station for the time that they are not using the bikes. 
+- Marketing and Advertising will play crucial role in making Citibike more popular among the crowd. 
+- Bike stands must be easily accessible to the users.
+- Bike stands should be positioned in the most crowded (as per the population) areas.
+- Offering some good plans according to seasons and festivals So that people will use bikes more often.
+- Also considering kids as type for some areas in the city itself will increase the chance of popularity among the crowd.
 
-Additionally, I would suggest a few things for further analysis with the given data set:
--	Trip duration of checkout times per user types. With this analysis we could see the trend of trip durations amongst user types.
--	Weekday and the trip duration. With this analysis we could see if the trend of the trip duration is similar on particular day (i.e. weekends and weekdays).
--	Additional color filter in Top Ending and Top Starting location to see which stations are more popular amongst subscribers and customers. 
