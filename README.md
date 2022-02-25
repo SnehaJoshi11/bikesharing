@@ -37,7 +37,7 @@ For this project we are creating data visualization with Tableau for bike sharin
 
 ## Results
 
-### Basic Information
+### 1. Basic Information
 
 This is the first page of the story which is dashboard, and it contains basic information about the data set.
 It gives details of the dataset to understand what kind of data we will be dealing with in the further analysis. 
@@ -52,7 +52,7 @@ The page contains the following information:
 -	Customer type: subscribers and customers.
 -	Peak hours, divided by gender which shows the user behavior.
 #
-### 1. Checkout Times for Users
+### 2. Checkout Times for Users
 
 <p align="center">
 <img src="Images/Checkout_times_of_Users.png" width="50%" height="50%">
@@ -63,7 +63,7 @@ The page contains the following information:
 - It shows that riders typically like to ride bike between 2 and 15 minutes.
 
 #
-### 2. Check Out Time by Gender
+### 3. Check Out Time by Gender
 
 <p align="center">
 <img src="Images/Checkout_times_By_Gender.png" width="50%" height="50%">
@@ -75,7 +75,7 @@ The page contains the following information:
 - This visualization shows the breakdown of riders by gender and duration of times showing that most of the users are men.
  
 #
-### 3. Trips by Weekday per Hour
+### 4. Trips by Weekday per Hour
 
 <p align="center">
 <img src="Images/Trips_by_Weekday_Per_hour.png" width="35%" height="35%">
@@ -91,7 +91,7 @@ The page contains the following information:
 -  On weekends (Saturday and Sunday) the busiest times are in the middle of the day between 10 am and 6 pm.
 
 #
-### 4. Trips by Gender (Weekday per Hour)
+### 5. Trips by Gender (Weekday per Hour)
 
 <p align="center">
 <img src="Images/Trips_by_Gender_Weekday_Per_hour.png" width="50%" height="50%">
@@ -111,7 +111,7 @@ The page contains the following information:
 -  However, males have significant higher number of trips than female or unknown gender. 
 
 #
-### 5. User Trips by Gender by Weekday
+### 6. User Trips by Gender by Weekday
 <p align="center">
 <img src="Images/UserTrips_by_Gender_Weekday.png" width="35%" height="35%">
 </p>
@@ -124,7 +124,7 @@ The page contains the following information:
 - Looking at the customers’ data we can see significant less trips throughout all genders with slight increase amongst unknown gender on Saturdays and Sundays.
 
 #
-### 6. Top Starting Locations & Top Ending Locations
+### 7. Top Starting Locations & Top Ending Locations
 
 <p align="center">
 <img src="Images/Top_Starting_Locations.png" width="40%" height="40%">    <img src="Images/Top_Ending_Locations.png" width="40%" height="40%">
