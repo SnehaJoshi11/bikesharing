@@ -43,7 +43,7 @@ This is the first page of the story which is dashboard, and it contains basic in
 It gives details of the dataset to understand what kind of data we will be dealing with in the further analysis. 
   
 <p align="center">
-<img src="Imagess/Basic_Information.png" width="50%" height="50%">
+<img src="Images/Basic_Information.png" width="50%" height="50%">
 </p>
 
 The page contains the following information:
@@ -127,7 +127,7 @@ The page contains the following information:
 ### 6. Top Starting Locations & Top Ending Locations
 
 <p align="center">
-<img src="Images/Top_Statrting_Locations.png" width="25%" height="25%">    <img src="Images/Top_Ending_Locations.png" width="27.3%" height="27.3%">
+<img src="Images/Top_Starting_Locations.png" width="40%" height="40%">    <img src="Images/Top_Ending_Locations.png" width="40%" height="40%">
 </p>
 
 - With the help of these two graphs we can see the most popular starting and ending locations.
