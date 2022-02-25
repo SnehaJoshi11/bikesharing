@@ -59,7 +59,7 @@ The page contains the following information:
 </p>
 
  
-- This visualization shows the length of time of every bike ride during the month of August in 2019. 
+- This visualization shows the length of time for every bike ride during the month of August in 2019. 
 - It shows that riders typically like to ride bike between 2 and 15 minutes.
 
 #
@@ -121,7 +121,7 @@ The page contains the following information:
 - Amongst subscribers, male has the highest number of the trips especially on Thursdays and Fridays, followed by trips on Monday and Tuesdays.
 - Female has similar distribution of trips, with significant lower number of trips than male.
 - Unknown gender has uniform distribution of the trips throughout the week. 
-- Looking at the customers’ data we can see significant less trips throughout all genders with slight increase amongst unknown gender on Saturdays and Sundays.
+- Looking at the customers data we can see significant less trips throughout all genders with slight increase amongst unknown gender on Saturdays and Sundays.
 
 #
 ### 7. Top Starting Locations & Top Ending Locations
@@ -143,10 +143,8 @@ The page contains the following information:
 
 ## Summary
 
-In the NYC CitiBike story, it tells us more about number of users and how they use the bikes per hour, by weekday per hour, who is most popular user type, popular areas,
+In the NYC CitiBike story, it tells us more about number of users and how they use the bikes per hour, by weekday per hour, who is most popular user type, popular areas and 
 peak hours by gender. 
-
-There are some points we should investigate:
 
 **1.Bike maintenance**
 
