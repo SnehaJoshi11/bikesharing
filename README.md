@@ -17,10 +17,10 @@ For this project we are creating data visualization with Tableau for bike sharin
 
 ## Requirements
 
--  Change Trip Duration to a Datetime Format
+- Change Trip Duration to a Datetime Format
   - Pandas to convert integer to a datetime datatype.
   
--  Create Visualizations for the Trip Analysis
+- Create Visualizations for the Trip Analysis
     - Tableau to create visualizations, dashboard, and story.
 
 
