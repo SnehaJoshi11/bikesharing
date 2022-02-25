@@ -1,11 +1,11 @@
-# NYC CitiBike
+# NY CitiBike
 
 ## Project Overview
 ### Purpose
 
 For this project we are creating data visualization with Tableau for bike sharing program in New York City. The idea is to analyze the data, observe the mechanics of the business and figure out how the bike share business works in NYC. This is the first step of expanding the idea to other cities. With the help of strong and clear story and good example of data we can create a proposal on how the business could work in other cities as well.
 
-**The Tableau story of the NYC CitiBike link:** [NYC CitiBike Story](https://public.tableau.com/app/profile/sneha.joshi2904/viz/HomeworkNyc_Bike_Sharing/NYCCitiBikeStory?publish=yes/)
+**The Tableau story of the NY CitiBike link:** [NY CitiBike Story](https://public.tableau.com/app/profile/sneha.joshi2904/viz/HomeworkNyc_Bike_Sharing/NYCCitiBikeStory?publish=yes/)
 
 
 ### Background 
